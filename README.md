@@ -8,4 +8,6 @@
 
 - cv002_EdgeDetection
 
-  Cannyアルゴリズムによるエッジ検出
+  - Cannyアルゴリズムによるエッジ検出
+  - stylization()で自然画像をイラスト風に処理
+  - pencilSketch()で鉛筆画風に処理
