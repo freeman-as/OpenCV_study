@@ -11,3 +11,9 @@
   - Cannyアルゴリズムによるエッジ検出
   - stylization()で自然画像をイラスト風に処理
   - pencilSketch()で鉛筆画風に処理
+
+- cv003_MatObjectFactory
+
+  Matオブジェクトの様々な生成パターン
+
+- 
