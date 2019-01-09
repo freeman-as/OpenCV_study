@@ -9,30 +9,38 @@ void printMat(string, Mat &m);
 int main()
 {
 	// (cos, rows, type)のコストラクタ
+	// Mat(int rows, int cols, int type) rows=高さ cols=幅
 	Mat img1(480, 640, CV_8UC1);
 	printMat("img1", img1);
 
 	// (Size, Type)のコストラクタ
+	// Size(int width, int height)
 	Size s2(640, 480);
+	// Mat(Size s, int type)
 	Mat img2(s2, CV_8UC1);
 	printMat("img2", img2);
 
 	// (Size, Type, カラー(Scalar))のコストラクタ
 	Scalar color(237, 149, 100);
+	// Mat(Size s, int type, const Scalar &s)
 	Mat img3(Size(400, 400), CV_8UC3, color);
 	printMat("img3", img3);
 
 	// Scalarで::allを用いてグレー画像を生成
+	// sizeを2倍（Mat, Sizeなど行列として計算できるクラスの定数倍はすべての要素を定数倍する）
+	// Scalar::all(double val) = 全要素に同じ値をセット
 	Mat img4(s2 * 2, CV_8UC3, Scalar::all(128));
 	printMat("img4", img4);
 
 	// Zeros
+	// Mat::zeros(Size s, int type) = すべて0で埋めた画像オブジェクト生成
 	Mat img5 = Mat::zeros(Size(320, 160), CV_8UC3);
 	printMat("img5", img5);
 
 	// createメソッドを使った方法
 	Mat img6;
 	img6.create(Size(300, 300), CV_32FC3);
+	// MatObj::setTo()
 	img6.setTo(Scalar(0.0, 1.0, 0.0));
 	printMat("img6", img6);
 
