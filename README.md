@@ -20,3 +20,7 @@
 
   OpenCVによる映像ファイルの読込と表示
 
+- cv005_VideoBinarization
+
+  ビデオファイルの二値化処理と書き出し
+
