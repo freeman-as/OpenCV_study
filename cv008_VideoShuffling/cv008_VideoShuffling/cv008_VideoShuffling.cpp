@@ -17,11 +17,11 @@ int main()
 	}
 
 	// ビデオ属性の取得
-	int frameWidth  = (int)cap.get(CAP_PROP_FRAME_WIDTH);
-	int frameHeight = (int)cap.get(CAP_PROP_FRAME_HEIGHT);
-	int frameCount = (int)cap.get(CAP_PROP_FRAME_COUNT);
-	int fps = (int)cap.get(CAP_PROP_FPS);
-	int wait = 1000 / fps;
+	int frameWidth  = (int)cap.get(CAP_PROP_FRAME_WIDTH);	// 映像の幅
+	int frameHeight = (int)cap.get(CAP_PROP_FRAME_HEIGHT);	// 映像の高さ
+	int frameCount = (int)cap.get(CAP_PROP_FRAME_COUNT);	// 総フレーム数
+	int fps = (int)cap.get(CAP_PROP_FPS);	// フレームレート
+	int wait = 1000 / fps;	// 待ち時間
 
 	cout << "(w, h) = (" << frameWidth << ", " << frameHeight << ")" << endl;
 	cout << "fps = " << fps << ", wait = " << wait << "ms" << endl;
@@ -30,12 +30,16 @@ int main()
 	bool loop = true;
 	while (loop)
 	{
-		int pos = rand() % frameCount;
-		int window = rand() % 30 + 10;
-		int direction = 2 * (rand() % 2) - 1;
+		// 再生をスタートするフレーム位置
+		int pos = rand() % frameCount;	// 0 ～ 総フレーム数-1
+		// 再生するフレーム数
+		int window = rand() % 30 + 10;	// 10 ～ 39
+		// ランダムに再生方向を決める
+		int direction = 2 * (rand() % 2) - 1;	// -1 or 1
 		cout << "開始: " << pos << ", コマ数: " << window << ", 方向: " <<
 			direction << endl;
 
+		// windowで指定したフレーム数分再生
 		for (int f = 0; f < window; f++)
 		{
 			cap.set(CAP_PROP_POS_FRAMES, pos);
