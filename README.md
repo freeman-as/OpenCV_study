@@ -35,3 +35,7 @@
 - cv008_VideoShuffling
 
   ランダムにビデオをシャッフリングしながら再生
+
+- cv009_GraphicsDrawing
+
+  Matオブジェクト上にグラフィック描画
