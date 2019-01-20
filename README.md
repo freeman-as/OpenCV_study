@@ -43,3 +43,7 @@
 - cv010_KeyboardLapse
 
   キーボード操作とコマ撮り
+
+- cv011_SwitchingBinarization
+
+  トラックバーによる2値化操作
