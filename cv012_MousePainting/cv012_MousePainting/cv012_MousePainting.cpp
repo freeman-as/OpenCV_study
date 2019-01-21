@@ -14,11 +14,12 @@ void onMouse(int event, int x, int y, int flags, void* userdata);
 int main()
 {
 	imshow("ペイント", img);
+	// マウスコールバック関数の設定
 	setMouseCallback("ペイント", onMouse);
 
 	createTrackbar("赤", "ペイント", &vR, 255);
-	createTrackbar("青", "ペイント", &vG, 255);
-	createTrackbar("緑", "ペイント", &vB, 255);
+	createTrackbar("緑", "ペイント", &vG, 255);
+	createTrackbar("青", "ペイント", &vB, 255);
 	createTrackbar("サイズ", "ペイント", &vS, 32);
 
 	int key = waitKey(0);
@@ -36,6 +37,7 @@ void onMouse(int event, int x, int y, int flags, void* userdata)
 	}
 	else if (event == EVENT_FLAG_RBUTTON)
 	{
+		// 右ボタンで描画クリア
 		img.setTo(255);
 	}
 	imshow("ペイント", img);
