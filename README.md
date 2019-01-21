@@ -47,3 +47,7 @@
 - cv011_SwitchingBinarization
 
   トラックバーによる2値化操作
+
+- cv012_MousePainting
+
+  マウス操作でペイント
