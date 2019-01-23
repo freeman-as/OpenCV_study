@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cv013_MovieMiniaturizer", "cv013_MovieMiniaturizer\cv013_MovieMiniaturizer.vcxproj", "{9D05AC90-E011-421B-BA16-1BD540E44CD4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Debug|x64.ActiveCfg = Debug|x64
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Debug|x64.Build.0 = Debug|x64
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Debug|x86.Build.0 = Debug|Win32
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Release|x64.ActiveCfg = Release|x64
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Release|x64.Build.0 = Release|x64
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Release|x86.ActiveCfg = Release|Win32
+		{9D05AC90-E011-421B-BA16-1BD540E44CD4}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9D7F11B-8B64-403D-8B50-CC6654DE4578}
+	EndGlobalSection
+EndGlobal

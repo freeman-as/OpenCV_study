@@ -51,3 +51,7 @@
 - cv012_MousePainting
 
   マウス操作でペイント
+
+- cv013_MovieMiniaturizer
+
+  マウス操作でミニチュア風加工
