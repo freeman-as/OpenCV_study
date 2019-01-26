@@ -4,7 +4,7 @@ ROI(注目領域)によって、画像の選択した部分にミニチュア風
 ---
 ### 使用したOpenCVのAPIについて
 
-- **operator()**
+- **``operator()``**
   ROIのデータを抽出
   https://docs.opencv.org/3.4.3/df/dfc/classcv_1_1Mat__.html#aae6a61bc65e081d2740b7994b514fbf1
 
