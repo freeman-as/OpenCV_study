@@ -46,3 +46,7 @@
 - cv014_ProjectiveTransformation
 
   マウス操作による射影変換
+
+- cv015_MorphologicalOperation
+
+  モルフォロジー演算にかかる処理時間を計測
