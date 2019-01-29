@@ -50,3 +50,11 @@
 - cv015_MorphologicalOperation
 
   モルフォロジー演算にかかる処理時間を計測
+
+- cv016_ImgeChannelSeparater
+
+  入力カラー画像のチャンネル分解と表示
+
+- cv017_PosterizationWithHSV
+
+  入力画像をHSVを用いてポスタリゼーション
