@@ -58,3 +58,7 @@
 - cv017_PosterizationWithHSV
 
   入力画像をHSVを用いてポスタリゼーション
+
+- cv018_ChromaKeyProcessing
+
+  マスク画像を使ったクロマキー合成
