@@ -62,3 +62,7 @@
 - cv018_ChromaKeyProcessing
 
   マスク画像を使ったクロマキー合成
+
+- cv019_PixelPointDrawing
+
+  ピクセル操作による点描画
